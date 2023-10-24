@@ -590,6 +590,64 @@ html {
 <!-- ############################################################ -->
 
 
+<!-- ########################################################## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########################################################## -->
+<style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<!-- ########################################################## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########## ---++++++ Right Tooltip +++++--- ########## -->
+<!-- ########################################################## -->
+
+
+
+
+
+<!-- ############################################################ -->
+<!-- .......................................................... -->
+<!-- .......................................................... -->
+<!-- .......................................................... -->
+<!-- .......................................................... -->
+<!-- .......................................................... -->
+<!-- ############################################################ -->
+
+
+
 
 <!-- +######################################################+++++ --> 
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ --> 
@@ -724,7 +782,6 @@ html {
 
 
 
-
 <body class="w3-animate-opacity w3-light-grey">
 
 
@@ -812,7 +869,6 @@ function closeNav() {
 
 
 
-
 <!-- ################################################## -->
 <!-- ################################################## -->
 <!-- ################################################## -->
@@ -829,8 +885,8 @@ function closeNav() {
       const d = new Date();
 document.getElementById("demo").innerHTML = d;
     </script>
-    </div>
-  </div>
+</div></div>
+    
 <!-- ################################################## -->
 <!-- ################################################## -->
 <!-- ################################################## -->
@@ -841,8 +897,6 @@ document.getElementById("demo").innerHTML = d;
 
 
 
-
-
 <!--########################################################### -->
 <!--..........................................................-->
 <!--..........................................................-->
@@ -864,17 +918,33 @@ document.getElementById("demo").innerHTML = d;
 <!-- #################################################### --> 
 <!--########################################################### -->
 
-<p></p>
+<!--..........................................................-->
+<!--..........................................................-->
+
 
 <div class="tab w3-bluex">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><i style="font-size:32px" class="fa">&#xf015;</i></button>
-  
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><i style="font-size:32px" class="fa">&#xf015;</i>
+<div class="tooltip">Hover<span class="tooltiptext">Tooltip text</span>
+</div>
+</button>
+<!--..........................................................-->
+<!--..........................................................-->
+
   <button class="tablinks" onclick="openCity(event, 'Paris')"><i style="font-size:24px" class="fa">&#xf03e;</i></button>
-  
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')"><i style="font-size:24px" class="fa">&#xf19c;</i></button>
-  
- <button class="tablinks" onclick="openCity(event, 'Aussie')"><i style="font-size:24px" class="fa">&#xf17c;</i></button>
+
+<!--..........................................................-->
+<!--..........................................................-->
  
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')"><i style="font-size:24px" class="fa">&#xf19c;</i></button>
+ 
+<!--..........................................................-->
+<!--..........................................................-->
+
+ <button class="tablinks" onclick="openCity(event, 'Aussie')"><i style="font-size:24px" class="fa">&#xf17c;</i></button>
+
+<!--..........................................................-->
+<!--..........................................................-->
+
  <button class="tablinks" onclick="openCity(event, 'Angola')"><i style='font-size:24px' class='fas'>&#xf5d1;</i></button>
  
 </div>
@@ -926,7 +996,7 @@ document.getElementById("demo").innerHTML = d;
 <ul class="breadcrumb w3-white w3-padding w3-hover-yellow" style="width:max; height: 50px; padding: 11px; box-shadow: 10px 10px; text-align:center">
   <li><a href="#" style="text-decoration-color: red;">Home</a></li>
   <li><a href="#">Pictures</a></li>
-  <li><a href="#">Summer 15</a></li>
+  <li><a href="#">Summer5</a></li>
 </ul>
 
 <!--##############################################################-->
