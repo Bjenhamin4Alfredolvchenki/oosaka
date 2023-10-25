@@ -124,7 +124,6 @@
 <!--############################################################## -->
 
 <style>
-
 .torino {
   /* The image used */
 
@@ -297,6 +296,28 @@ body {font-family: "Lato", sans-serif;}
   border-left: none;
   height: 650px;
 }
+
+/* Fade in tabs */
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 </style>
 
 <!--########################################################### -->
@@ -462,19 +483,6 @@ ul.breadcrumb li a {color: green;}
 
 
 
-<!-- ############################################################ -->
-<!--###-----------------------------------------------------#######-->
-<!--###-----------------------------------------------------#######-->
-<!--###-----------------------------------------------------#######-->
-<!--###-----------------------------------------------------#######-->
-<!--###-----------------------------------------------------#######-->
-<!--###-----------------------------------------------------#######-->
-<!-- ############################################################ -->
-
-
-
-
-
 
 <!-- ############################################################ -->
 <!--  ......................................... --> 
@@ -502,15 +510,15 @@ html {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: indigo;
+  background-color: black;
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #444;
 }
 </style>
 
