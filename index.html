@@ -676,7 +676,7 @@ html {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black; 
+  background: indigo; 
   border-radius: 10px;
 }
 
@@ -885,6 +885,14 @@ img {margin-bottom: -8px;}
 }
 
 .active, .collapsible:hover {
+  background-color: #111;
+}
+
+.active, .collapsible2:hover {
+  background-color: #111;
+}
+
+.active, .collapsible3:hover {
   background-color: #111;
 }
 
@@ -2175,8 +2183,8 @@ for (i = 0; i < coll.length; i++) {
 
   <div class="column">
    <div class="card">
-    <div class="container w3-white" style="box-shadow: 2px 2px; text-align:center">
-     <h2 class="blakey2">AL-JAZEERA</h2>
+    <div class="container w3-white" style="box-shadow: 2px 2px; text-align:center"><br>
+     <h2 class="blakey3">AL-JAZEERA33</h2>
       <p>Some text that describes me lorem ipsum ipsum lorem.</p>
       <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                   
@@ -2196,7 +2204,7 @@ for (i = 0; i < coll.length; i++) {
 <!--..........................................................-->
 <!--..........................................................-->
 
-<button class="collapsible2">Open Collapsible2</button>
+<button class="collapsible3">Open Collapsible2</button>
 <div class="content w3-yellow">
   <p>Lorem ipsum dolor sit amet,.</p>
 <p><script src="//rss.bloople.net/?url=http%3A%2F%2Ffeeds.bbci.co.uk%2Fnews%2Frss.xml&detail=30&limit=5&showtitle=false&type=js"></script>
@@ -2206,7 +2214,7 @@ for (i = 0; i < coll.length; i++) {
 <!--..........................................................-->
 
 <script>
-var coll = document.getElementsByClassName("collapsible2");
+var coll = document.getElementsByClassName("collapsible3");
 var i;
 
 for (i = 0; i < coll.length; i++) {
