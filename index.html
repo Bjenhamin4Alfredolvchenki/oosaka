@@ -364,10 +364,10 @@ url('https://res.cloudinary.com/bkalfkalqq3jhdklazxdsetg/image/upload/v169819019
 /* Style the tab */
 .tab {
   float: left;
-  border: 2px solid #ccc;
+  border: 1.0px solid #ccc;
   border-right: 5px solid #111;
   background-color: #f1f1f1;
-  width: 10%;
+  width:  8.0%;
   height: 500px;
   margin: 0.5%;
 }
@@ -377,13 +377,13 @@ url('https://res.cloudinary.com/bkalfkalqq3jhdklazxdsetg/image/upload/v169819019
   display: block;
   background-color: inherit;
   color: black;
-  padding: 32px 12px;
+  padding: 22px 12px;
   width: 100%;
   border: none;
   outline: none;
   text-align: centre;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 1.5s;
   font-size: 17px;
 }
 
@@ -400,7 +400,7 @@ url('https://res.cloudinary.com/bkalfkalqq3jhdklazxdsetg/image/upload/v169819019
 /* Style the tab content */
 .tabcontent {
   float: left;
-  padding: 0px 12px;
+  padding: 0px 10px;
   border-top: 0px solid #111; 
   width: 89%;
   border-left: none;
@@ -409,7 +409,7 @@ url('https://res.cloudinary.com/bkalfkalqq3jhdklazxdsetg/image/upload/v169819019
 
 /* Fade in tabs */
 .tabcontent {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  animation: fadeEffect 1.5s; /* Fading effect takes 1 second */
 }
 
 /* Go from zero to full opacity */
@@ -456,7 +456,7 @@ url('https://res.cloudinary.com/bkalfkalqq3jhdklazxdsetg/image/upload/v169819019
 <!--############ ++++ Breadcrumb Pagination +++++ ###############-->
 <!--##############################################################-->
 <!--##############################################################-->
-
+<!--
 <style>
 ul.breadcrumb {
   padding: 14px 40px;
@@ -474,7 +474,7 @@ ul.breadcrumb li+li:before {
 
 ul.breadcrumb li a {color: green;}
 </style>
-
+-->
 <!--##############################################################-->
 <!--##############################################################-->
 <!--############ ++++ Breadcrumb Pagination +++++ ###############-->
@@ -2689,9 +2689,9 @@ for (i = 0; i < coll.length; i++) {
 </iframe>
 
 </div>
-</div> 
+
   
-</div>
+
 
 <!--..........................................................-->
 <!--..........................................................-->
@@ -2702,7 +2702,7 @@ for (i = 0; i < coll.length; i++) {
 <!--..........................................................-->
 <!--..........................................................-->
 
-</div></div></div>
+
 
 <!--##############################################################-->
 <!--##############################################################-->
@@ -2753,8 +2753,6 @@ for (i = 0; i < coll.length; i++) {
 
 <!--..........................................................-->
 <!--..........................................................-->
-
-
 
 
 <!-- +######################################################+++++ --> 
@@ -2976,6 +2974,27 @@ function openTown(evt, TownName) {
   evt.currentTarget.firstElementChild.className += " w3-border-red";
 }
 </script>
+
+
+<!--
+<script>
+function openTown(evt, TownName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("Town");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+</script>
+-->
+
+
 
 <!--####################################################-#######-->
 <!--####################################################-#######-->
