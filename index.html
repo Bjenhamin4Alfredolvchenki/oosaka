@@ -879,7 +879,7 @@ img {margin-bottom: -8px;}
 <!-- +++..................................................++++ --->
 <!-- ############################################################ -->
 <!-- ############################################################ -->
-
+<!--
 <style>
 .collapsible {
   background-color: #111;
@@ -941,7 +941,7 @@ img {margin-bottom: -8px;}
   background-color: #f1f1f1;
 }
 </style>
-
+-->
 <!-- ############################################################ -->
 <!-- ############################################################ -->
 <!-- +++..................................................++++ --->
@@ -1138,6 +1138,77 @@ h2:hover {
 <!-- ####### -------- .CSS 3-column layout =------- ########## -->
 <!-- ####### -------- .CSS 3-column layout =------- ########## -->
 <!-- ####### -------- .CSS 3-column layout =------- ########## -->
+<!-- ########################################################### -->
+
+
+
+
+
+<!--########################################################### -->
+<!--..........................................................-->
+<!--..........................................................-->
+<!--..........................................................-->
+<!--..........................................................-->
+<!--..........................................................-->
+<!--..........................................................-->
+<!--########################################################### -->
+
+
+
+
+
+<!-- ########################################################### -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ########################################################### -->
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.columnADF {
+  float: left;
+  width: 99.55%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* :hover selector - element */
+h2:hover {
+  background-color: yellow;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .columncolumnADF {
+    width: 100%;
+  }
+}
+</style>
+
+<!-- ########################################################### -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
+<!-- ####### -------- .CSS 1-column layout =------- ########## -->
 <!-- ########################################################### -->
 
 
@@ -3593,7 +3664,7 @@ function openTown(evt, TownName) {
 <!--..........................................................-->
 <!--..........................................................-->
 
-<button class="w3-button w3-border w3-black" style="box-shadow: 10px 10px;">DEVOPS__NEWS</button>
+<button class="w3-button w3-border w3-black" style="box-shadow: 10px 10px;">DEVOPS__NEWS.</button>
  
   
 <!-- ########################################################## -->
@@ -3609,26 +3680,24 @@ function openTown(evt, TownName) {
 
 
 <div class="row w3-border w3-white w3-border-black">
-  <div class="column">
-    <h2>ColumnA1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  <div class="columnADF">
+    <h2>ColumnAAA</h2>
+    <p>LoremAHH ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
   </div>
   
-<!-- ########################################################## -->
-<!--..........................................................-->
-<!--..........................................................-->
-<!--..........................................................-->
-<!--..........................................................-->
-<!-- ########################################################## -->
-
-
-  <div class="column">
-    <h2>ColumnA2</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
   </div>
-</div>
+  <br><br>
+<!-- ########################################################## -->
+<!--..........................................................-->
+<!--..........................................................-->
+<!--..........................................................-->
+<!--..........................................................-->
+<!-- ########################################################## -->
 
-<br><br>
+
+
+
+
   
 <!-- ########################################################## -->
 <!--..........................................................-->
@@ -3665,13 +3734,16 @@ function openTown(evt, TownName) {
 <!--..........................................................-->
 <!-- ########################################################## -->
 
-
-<div class="row w3-border w3-border-black">
-  <div class="column">
-    <h2>ColumnB1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+<div class="row w3-border w3-white w3-border-black">
+  <div class="columnADF">
+    <h2>ColumnBBB</h2>
+    <p>LoremAHH ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
   </div>
   
+  </div>
+  <br><br>
+
+
 <!-- ########################################################## -->
 <!--..........................................................-->
 <!--..........................................................-->
@@ -3680,14 +3752,29 @@ function openTown(evt, TownName) {
 <!-- ########################################################## -->
 
 
-  <div class="column">
-    <h2>ColumnB2</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-  </div>
-</div>
 
-<br><br>
+<!-- ########################################################## -->
+<!--..........................................................-->
+<!--..........................................................-->
+<!--............LEVEL--- 3 ...................................-->
+<!--..........................................................-->
+<!-- ########################################################## -->
+
+
+
+<div class="row w3-border w3-white w3-border-black">
+  <div class="columnADF">
+    <h2>ColumnCCC</h2>
+    <p>LoremAHH ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
   
+  </div>
+  <br><br>
+
+
+
+
+
 <!-- ########################################################## -->
 <!--..........................................................-->
 <!--..........................................................-->
